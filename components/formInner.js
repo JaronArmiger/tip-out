@@ -16,7 +16,7 @@ const FormInner = ({
 
   return (
   	 <form
-        className="w-full max-w-lg m-auto py-10 mt-10 px-10"
+        className="pt-0 mt-0 w-full max-w-lg m-auto py-10 mt-10 px-10"
         onSubmit={handleSubmit}
       >
         <label className="block my-4">
