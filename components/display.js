@@ -100,7 +100,7 @@ const Display  = ({
   	    </tr>
   	    <tr>
   	      <td className="border px-4 py-2 rounded-sm px-4 py-2 border-slate-200">
-  	      	<span className="font-bold">Net Cash Tips Tips:</span> {' $0'}
+  	      	<span className="font-bold">Net Cash Tips:</span> {' $0'}
   	      </td>
   	      <td className="border px-4 py-2 rounded-sm border-slate-200">
   	      	

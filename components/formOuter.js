@@ -72,7 +72,7 @@ const FormOuter = () => {
 
 	  const creditCardSales = round2(totalNetSales - cashSales);
       const ccFee = round2((creditCardSales * 0.015));
-      const chargeTipAfterFee = round2(creditCardSales - ccFee);
+      const chargeTipAfterFee = round2(tips - ccFee);
       const bar = round2((chargeTipAfterFee * .06));
       const serverAsst = round2((chargeTipAfterFee * .21));
       const runner = round2((chargeTipAfterFee * .13));
