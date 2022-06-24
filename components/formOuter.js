@@ -71,7 +71,7 @@ const FormOuter = () => {
       wine = round2(wine);
 
 	  const creditCardSales = round2(totalNetSales - cashSales);
-      const ccFee = round2((creditCardSales * 0.015));
+      const ccFee = round2((tips * 0.015));
       const chargeTipAfterFee = round2(tips - ccFee);
       const bar = round2((chargeTipAfterFee * .06));
       const serverAsst = round2((chargeTipAfterFee * .21));
